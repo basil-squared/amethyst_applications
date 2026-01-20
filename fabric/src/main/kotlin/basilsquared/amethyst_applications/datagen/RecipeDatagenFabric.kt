@@ -6,7 +6,7 @@ import java.util.function.Consumer
 
 class RecipeDatagenFabric(output: FabricDataOutput): FabricRecipeProvider(output) {
     override fun buildRecipes(finishedRecipe: Consumer<FinishedRecipe>) {
-        TODO("Recipe Datagen for Fabric")
+
     }
 
 }

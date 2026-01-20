@@ -1,16 +1,14 @@
-modLoader = "javafml"
+modLoader = "kotlinforforge"
 loaderVersion = "[47,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "${license}"
 
 [[mods]]
 modId = "amethyst_applications"
 version = "${version}"
 displayName = "Amethyst Applications"
-authors = "Me!"
-description = '''
-This is an example description! Tell everyone what your mod is about!
-'''
+authors = "basil_squared"
+description = '${description}'
 #logoFile = ""
 
 [[dependencies.amethyst_applications]]
