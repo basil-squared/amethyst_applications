@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/amethyst_applications.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/amethyst_applications.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/amethyst_applications.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/amethyst_applications.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/amethyst_applications.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/amethyst_applications.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/amethyst_applications.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/amethyst_applications.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/amethyst_applications.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/amethyst_applications.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/amethyst_applications.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/amethyst_applications.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/amethyst_applications.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/amethyst_applications.forge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/amethyst_applications.quilt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/amethyst_applications.quilt.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/amethyst_applications.quilt.test.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/amethyst_applications.quilt.test.iml" />
+    </modules>
+  </component>
+</project>

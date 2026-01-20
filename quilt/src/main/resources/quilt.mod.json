@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "amethyst_applications",
+    "version": "${version}",
+    "metadata": {
+      "name": "Amethyst Applications",
+      "description": "This is an example description! Tell everyone what your mod is about!",
+      "contributors": {
+        "Me!": "Author"
+      },
+      "icon": "assets/amethyst_applications/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": [
+        "basilsquared.amethyst_applications.quilt.ExampleModQuilt"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.20.1"
+      },
+      {
+        "id": "architectury",
+        "version": ">=9.2.14"
+      }
+    ]
+  },
+  "mixin": [
+    "amethyst_applications.mixins.json"
+  ]
+}
