@@ -46,7 +46,18 @@ processResources {
         expand version: inputs.properties.version
     }
 }
-
+loom {
+    runs {
+        datagen {
+            inherit server
+            name "Fabric Data Generation"
+            vmArg "-Dfabric-api.datagen"
+            vmArg "-Dfabric-api.datagen.output-dir=${project(":common").file("src/main/generated")}"
+            vmArg "-Dfabric-api.datagen.modid=amethyst_applications"
+            runDir "build/datagen"
+        }
+    }
+}
 shadowJar {
     configurations = [project.configurations.shadowBundle]
     archiveClassifier = 'dev-shadow'

@@ -6,4 +6,7 @@ object Constants {
         "crystal_glass",
 
     )
+    val Genned_IDS = run {
+
+    }
 }
