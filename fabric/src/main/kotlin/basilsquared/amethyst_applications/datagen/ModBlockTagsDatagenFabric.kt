@@ -1,6 +1,7 @@
 package basilsquared.amethyst_applications.datagen
 
 import basilsquared.amethyst_applications.ModBlocks
+import basilsquared.amethyst_applications.ModUtils
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider
 import net.minecraft.core.HolderLookup
@@ -10,8 +11,8 @@ import java.util.concurrent.CompletableFuture
 class ModBlockTagsDatagenFabric(output: FabricDataOutput, registriesFuture: CompletableFuture<HolderLookup.Provider>): FabricTagProvider.BlockTagProvider(output,  registriesFuture) {
     override fun addTags(provider: HolderLookup.Provider) {
         getOrCreateTagBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
-            .add(ModBlocks.CRYSTAL_GLASS.get())
+            .add(ModUtils.modBlock("crystal_glass"))
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-            .add(ModBlocks.CRYSTAL_GLASS.get())
+            .add(ModUtils.modBlock("crystal_glass"))
     }
 }

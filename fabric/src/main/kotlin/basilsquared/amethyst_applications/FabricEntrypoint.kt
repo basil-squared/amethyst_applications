@@ -8,8 +8,9 @@ object FabricEntrypoint: ModInitializer {
     override fun onInitialize() {
         val logger = LoggerFactory.getLogger("Main")
         logger.info("Hello Amethyst (Fabric!) :) Loading things now...")
-        ModItems.register()
         ModBlocks.register()
+        ModItems.register()
+
     }
 
 

@@ -3,9 +3,12 @@ package basilsquared.amethyst_applications
 import dev.architectury.registry.registries.DeferredRegister
 import dev.architectury.registry.registries.RegistrySupplier
 import net.minecraft.client.renderer.item.ItemProperties
+import net.minecraft.core.registries.BuiltInRegistries
 import net.minecraft.core.registries.Registries
+import net.minecraft.resources.ResourceLocation
 import net.minecraft.world.item.Item
 import net.minecraft.world.level.ItemLike
+import net.minecraft.world.level.block.Block
 
 object ModUtils {
     /* Register common properties that hardly differ item over item. Should be able to implement item type
@@ -16,6 +19,12 @@ object ModUtils {
 
     fun crystallineItemHelper(ItemType: String) {
 
+    }
+    fun modItem(name: String): Item {
+        return BuiltInRegistries.ITEM.get(ResourceLocation(Constants.MOD_ID, name))
+    }
+    fun modBlock(name: String): Block {
+        return BuiltInRegistries.BLOCK.get(ResourceLocation(Constants.MOD_ID,name))
     }
 
 

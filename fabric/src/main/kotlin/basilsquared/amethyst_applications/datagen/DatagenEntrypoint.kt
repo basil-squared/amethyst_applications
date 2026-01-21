@@ -12,7 +12,11 @@ class DatagenEntrypoint: DataGeneratorEntrypoint {
         val logger = LoggerFactory.getLogger("Datagen")
         logger.info("Hello datagen! Generating data now..")
         val pack = datagen?.createPack()
-        pack?.addProvider(::RecipeDatagenFabric)
+        if (pack != null) {
+            pack.addProvider(::RecipeDatagenFabric)
+            pack.addProvider(::ModItemTagProvider)
+            pack.addProvider(::ModBlockTagsDatagenFabric)
+        }
 
     }
 }
