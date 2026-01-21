@@ -1,10 +1,16 @@
 package basilsquared.amethyst_applications
 import net.fabricmc.api.ModInitializer
+import org.slf4j.LoggerFactory
+
 
 object FabricEntrypoint: ModInitializer {
 
     override fun onInitialize() {
-        TODO("GWAH")
+        val logger = LoggerFactory.getLogger("Main")
+        logger.info("Hello Amethyst (Fabric!) :) Loading things now...")
+        ModItems.register()
+        ModBlocks.register()
     }
+
 
 }
