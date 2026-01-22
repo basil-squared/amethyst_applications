@@ -39,6 +39,16 @@ object ModBlocks {
         name = "crystal_glass",
         registry = BLOCKS
     )
+    val CHARGER = registerModBlock(
+        BlockBehaviour.Properties.of()
+            .mapColor(MapColor.COLOR_PURPLE)
+            .sound(SoundType.AMETHYST)
+            .strength(5F,50F),
+
+        name = "charger",
+        registry = BLOCKS
+
+    )
     fun register() {
         BLOCKS.register()
     }
