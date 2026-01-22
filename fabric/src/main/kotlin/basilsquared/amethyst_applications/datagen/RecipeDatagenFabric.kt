@@ -39,6 +39,7 @@ class RecipeDatagenFabric(output: FabricDataOutput): FabricRecipeProvider(output
             .define('P', OBSIDIAN_POWDERS)
             .define('A', Items.AMETHYST_SHARD)
             .define('G',Items.GLASS)
+            .save(finishedRecipe)
 
     }
 

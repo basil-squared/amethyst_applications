@@ -1,0 +1,22 @@
+{
+  "type": "create:crushing",
+  "architectury:load_conditions": [
+    {
+      "condition": "architectury:mod_loaded",
+      "value": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "results": [
+    {
+      "item": "amethyst_applications:obsidian_power",
+      "count": 3
+
+    }
+  ],
+  "processingTime": 250
+}
