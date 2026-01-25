@@ -1,10 +1,16 @@
 package basilsquared.amethyst_applications.botariumreqitems
 
 import basilsquared.amethyst_applications.blockentities.ChargerBlockEntity
+import dev.architectury.registry.menu.ExtendedMenuProvider
 import net.minecraft.core.BlockPos
+import net.minecraft.network.FriendlyByteBuf
+import net.minecraft.network.chat.Component
 import net.minecraft.world.InteractionHand
 import net.minecraft.world.InteractionResult
+import net.minecraft.world.entity.player.Inventory
 import net.minecraft.world.entity.player.Player
+import net.minecraft.world.inventory.AbstractContainerMenu
+
 import net.minecraft.world.level.Level
 import net.minecraft.world.level.block.Block
 import net.minecraft.world.level.block.EntityBlock
@@ -27,7 +33,22 @@ class Charger(properties: BlockBehaviour.Properties): Block(properties), EntityB
         if (!level.isClientSide) {
             val blockEntity = level.getBlockEntity(pos)
             if (blockEntity is ChargerBlockEntity) {
-                player.openMenu(blockEntity)
+                player.openMenu(object: ExtendedMenuProvider {
+                    override fun createMenu(containerId: Int, playerInventory: Inventory,player: Player): AbstractContainerMenu {
+                        return blockEntity.createMenu(containerId,playerInventory,player)!!
+                    }
+                    override fun getDisplayName(): Component {
+                        return blockEntity.displayName
+                    }
+
+                    override fun saveExtraData(buf: FriendlyByteBuf) {
+                        //write data to buffer
+                        buf.writeBlockPos(pos)
+                    }
+                }
+
+
+                )
             }
         }
         return InteractionResult.sidedSuccess(level.isClientSide)
@@ -37,3 +58,4 @@ class Charger(properties: BlockBehaviour.Properties): Block(properties), EntityB
         return ChargerBlockEntity(pos, state)
     }
 }
+
