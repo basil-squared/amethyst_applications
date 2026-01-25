@@ -134,6 +134,6 @@ class ChargerBlockEntity(pos: BlockPos, state: BlockState): BlockEntity(ModBlock
             }
         }
     }
-    fun getInventory(): SimpleContainer = inventory
+
 
 }

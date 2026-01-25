@@ -1,7 +1,7 @@
 [Architectury Transformer] Architectury Runtime 5.2.87
 [Architectury Transformer DEBUG] Closed File Systems for /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/common/build/devlibs/amethyst_applications-common-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Provided 115 classpath jar(s):
+[Architectury Transformer DEBUG] Provided 126 classpath jar(s):
 [Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/dev.architectury/architectury-injectables/1.0.10/62db2a366d662606d1b23ad02ccc3212ed37ec3/architectury-injectables-1.0.10.jar
 [Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.18.4/dc4682125d5db647d6ce80a98b98945835adcd4b/fabric-loader-0.18.4.jar
 [Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/2.3.0/52964748cba73c57d84c173005369087a9ccdfea/kotlin-stdlib-jdk8-2.3.0.jar
@@ -62,7 +62,18 @@
 [Architectury Transformer DEBUG]  - /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-bf575f6df2/1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2/minecraft-merged-bf575f6df2-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2.jar
 [Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.82.Final/c7350a71920f3ae9142945e25fed4846cce53374/netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.82.Final/476409d6255001ca53a55f65b01c13822f8dc93a/netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar
+[Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/2.3.0/a723c4fbeeb7b48910a0f82b8ea826da1b17dd0b/kotlin-reflect-2.3.0.jar
+[Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.10.2/809f71bf722bad7e78ebe8ec710c0327c23b7a31/kotlinx-coroutines-jdk8-1.10.2.jar
+[Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.10.2/4a9f78ef49483748e2c129f3d124b8fa249dafbf/kotlinx-coroutines-core-jvm-1.10.2.jar
+[Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json-jvm/1.9.0/aea6f7d49fe5c458f8963ee6d4bdaf4a459ab3e7/kotlinx-serialization-json-jvm-1.9.0.jar
+[Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-cbor-jvm/1.9.0/a5b382b72c6f51ff6129080c49c4ae4c12ff57a6/kotlinx-serialization-cbor-jvm-1.9.0.jar
+[Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.9.0/91448df39c558f7c6147b8bd8db01debe16e0cc1/kotlinx-serialization-core-jvm-1.9.0.jar
+[Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime-jvm/0.7.1/81c2e0246bd28cc2dcbdf0ab53628322e66a9de9/kotlinx-datetime-jvm-0.7.1.jar
+[Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-core-jvm/0.8.2/358a9f2ba2dc81c5dc84c3d1853f6e5efba63be1/kotlinx-io-core-jvm-0.8.2.jar
+[Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-bytestring-jvm/0.8.2/89c5399596250e71f2bba6d2415972a078a525c7/kotlinx-io-bytestring-jvm-0.8.2.jar
+[Architectury Transformer DEBUG]  - /Users/kasenengel/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-jvm/0.29.0/fad29f53ad0c239ba525b637a152bfcaa8631f0f/atomicfu-jvm-0.29.0.jar
 [Architectury Transformer DEBUG]  - /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-525a49f8/0.92.7+1.20.1/fabric-api-525a49f8-0.92.7+1.20.1.jar
+[Architectury Transformer DEBUG]  - /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-language-kotlin-525a49f8/1.13.8+kotlin.2.3.0/fabric-language-kotlin-525a49f8-1.13.8+kotlin.2.3.0.jar
 [Architectury Transformer DEBUG]  - /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-fabric-525a49f8/9.2.14/architectury-fabric-525a49f8-9.2.14.jar
 [Architectury Transformer DEBUG]  - /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-525a49f8/3.3.6+8dd72ea377/fabric-transfer-api-v1-525a49f8-3.3.6+8dd72ea377.jar
 [Architectury Transformer DEBUG]  - /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-525a49f8/1.6.37+1802ada577/fabric-api-lookup-api-v1-525a49f8-1.6.37+1802ada577.jar
@@ -117,26 +128,35 @@
 [Architectury Transformer DEBUG]  - /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-525a49f8/0.11.12+fb82e9d777/fabric-resource-loader-v0-525a49f8-0.11.12+fb82e9d777.jar
 [Architectury Transformer DEBUG]  - /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-525a49f8/1.0.14+1802ada577/fabric-sound-api-v1-525a49f8-1.0.14+1802ada577.jar
 [Architectury Transformer DEBUG]  - /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1-525a49f8/4.3.2+1802ada577/fabric-transitive-access-wideners-v1-525a49f8-4.3.2+1802ada577.jar
-[Architectury Transformer] Read classpath in 864.2 ms
+[Architectury Transformer] Read classpath in 903.5 ms
 [Architectury Transformer DEBUG] Closed File Systems for /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/common/build/devlibs/amethyst_applications-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/common/build/devlibs/amethyst_applications-common-1.0.0-dev.jar to /var/folders/qf/_vss367512q_f0qw_vxn5m100000gn/T/6205319119082343653.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@5a1c0542
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@396f6598
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@394e1a0f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@27a5f880
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@1d29cf23
-[Architectury Transformer DEBUG] Transforming from /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/common/build/devlibs/amethyst_applications-common-1.0.0-dev.jar to /var/folders/qf/_vss367512q_f0qw_vxn5m100000gn/T/6205319119082343653.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/common/build/devlibs/amethyst_applications-common-1.0.0-dev.jar to /var/folders/qf/_vss367512q_f0qw_vxn5m100000gn/T/3564975945822296031.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@7a765367
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@76b0bfab
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@17d677df
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@3043fe0e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@78e67e0a
+[Architectury Transformer DEBUG] Transforming from /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/common/build/devlibs/amethyst_applications-common-1.0.0-dev.jar to /var/folders/qf/_vss367512q_f0qw_vxn5m100000gn/T/3564975945822296031.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/ExampleMod with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/blockentities/ChargerBlockEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/blockentities/ChargerBlockEntity$data$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/Constants with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/ModMenuTypes with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/botariumreqitems/AmethystGenerator with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/botariumreqitems/Charger with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/botariumreqitems/Charger$use$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/ModUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/ModBlockEntities with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/ModBlocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/menus/ChargerMenu with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/client/utils/GuiUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/client/screens/ChargerScreen with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /amethyst_applications.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for /var/folders/qf/_vss367512q_f0qw_vxn5m100000gn/T/6205319119082343653.jar
+[Architectury Transformer DEBUG] Closed File Systems for /var/folders/qf/_vss367512q_f0qw_vxn5m100000gn/T/3564975945822296031.jar
 [Architectury Transformer] Listening at /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/common/build/devlibs/amethyst_applications-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [/var/folders/qf/_vss367512q_f0qw_vxn5m100000gn/T/6205319119082343653.jar] contains packages: basilsquared.amethyst_applications.botariumreqitems, basilsquared.amethyst_applications
+[Architectury Transformer DEBUG] Temporary jar [/var/folders/qf/_vss367512q_f0qw_vxn5m100000gn/T/3564975945822296031.jar] contains packages: basilsquared.amethyst_applications.menus, basilsquared.amethyst_applications.blockentities, basilsquared.amethyst_applications.botariumreqitems, basilsquared.amethyst_applications.client.screens, basilsquared.amethyst_applications.client.utils, basilsquared.amethyst_applications
 [Architectury Transformer DEBUG] Closed File Systems for /Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/common/build/devlibs/amethyst_applications-common-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [/Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/fabric/build/classes/java/main] contains packages: basilsquared.amethyst_applications.fabric, basilsquared.amethyst_applications.fabric.client
 [Architectury Transformer DEBUG] Classpath entry [/Users/kasenengel/amethyst_applications-1.20.1-fabric-quilt-forge-template/fabric/build/classes/kotlin/main] contains packages: basilsquared.amethyst_applications.datagen, basilsquared.amethyst_applications
@@ -144,12 +164,12 @@
 [Architectury Transformer DEBUG] Transforming from basilsquared/amethyst_applications/ModBlocks.class to basilsquared/amethyst_applications/ModBlocks.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/ModBlocks with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed basilsquared/amethyst_applications/ModBlocks in 806.8 μs
+[Architectury Transformer DEBUG] Transformed basilsquared/amethyst_applications/ModBlocks in 1.482 ms
 [Architectury Transformer DEBUG] Transforming from basilsquared/amethyst_applications/Constants.class to basilsquared/amethyst_applications/Constants.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/Constants with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed basilsquared/amethyst_applications/Constants in 330.5 μs
+[Architectury Transformer DEBUG] Transformed basilsquared/amethyst_applications/Constants in 306.0 μs
 [Architectury Transformer DEBUG] Transforming from basilsquared/amethyst_applications/ModItems.class to basilsquared/amethyst_applications/ModItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing basilsquared/amethyst_applications/ModItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed basilsquared/amethyst_applications/ModItems in 603.3 μs
+[Architectury Transformer DEBUG] Transformed basilsquared/amethyst_applications/ModItems in 495.1 μs

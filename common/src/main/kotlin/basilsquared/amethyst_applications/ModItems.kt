@@ -20,6 +20,11 @@ object ModItems {
     val CRYSTAL_GLASS: RegistrySupplier<Item> = ITEMS.register("crystal_glass") {
         BlockItem(ModBlocks.CRYSTAL_GLASS.get(), Item.Properties().stacksTo(16))
     }
+    val CHARGER: RegistrySupplier<Item> = ITEMS.register("charger") {
+        BlockItem(ModBlocks.CHARGER.get(), Item.Properties())
+    }
+
+
     fun register() {
         ITEMS.register()
     }

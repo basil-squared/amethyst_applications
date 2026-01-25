@@ -17,7 +17,7 @@ class ChargerMenu(
     private val data: ContainerData = SimpleContainerData(2)
 ) : AbstractContainerMenu(ModMenuTypes.CHARGER.get(), containerId) {
         init {
-            val inventory = blockEntity.getInventory()
+            val inventory = blockEntity.inventory
             // Input slot
             addSlot(Slot(inventory, 0, 56, 35))
             // Output slot
